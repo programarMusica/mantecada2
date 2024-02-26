@@ -1,0 +1,91 @@
+﻿/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+margin-bottom: 10px;
+   
+
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilos del header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* Centra el contenido del encabezado */
+}
+
+    header h1 {
+        margin: 0;
+        text-align: center;
+    }
+
+nav {
+    text-align: center;
+}
+
+    nav a {
+        color: #fff;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+/* Estilos del main */
+index {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section {
+    width: 80%;
+    margin: 10px;
+}
+
+.usuario, .pago {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la sección de imagen */
+.imagen {
+    text-align: center;
+
+    margin-bottom: 25px; /* Espacio inferior para separar la imagen del contenido siguiente */
+}
+
+    .imagen img {
+        width: 100%; /* La imagen ocupará el ancho completo del contenedor */
+        max-width: 600px; /* Establece un ancho máximo para evitar que la imagen sea demasiado grande en pantallas grandes */
+        height: auto; /* Mantiene la proporción de aspecto de la imagen */
+        border-radius: 5px; /* Opcional: agrega bordes redondeados a la imagen */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra suave a la imagen */
+      
+    }
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
